@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #F8FFDB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header h3 {
+    font-family: 'Kolker Brush', cursive;
+    font-size: 45px;
+    color: #FF7D7D;
+}
+
+#myNav a {
+    color: #FF7D7D;
+    text-decoration: none;
+    margin: 25px;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+    transition-duration: 0.5s;
+}
+
+#myNav a:hover {
+    color: #FF6464;
+}
+
+#mainContent {
+    height: 700px;
+    justify-content: space-evenly;
+    background-color: #B3FFAE;
+    text-align: center;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 65px;
+}
+
+#mainContent input {
+
+    background-color: #FF7D7D;
+    padding: 25px;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    border: 0ch;
+    border-radius: 25px;
+    transition-duration: 0.5s;
+}
+
+#mainContent input:hover {
+    background-color: #B3FFAE;
+    color: #FF6464;
+}
+
+#banner{
+    display: flex;
+    float: left;
+}
+
+#banner img{
+    width: 20%;
+}
+
+#offers{
+    margin-top: 25px;
+    background-color:#F8FFDB;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
