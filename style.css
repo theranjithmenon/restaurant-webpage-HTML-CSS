@@ -54,6 +54,7 @@ header h3 {
 #mainContent input:hover {
     background-color: #B3FFAE;
     color: #FF6464;
+    font-size: 25px;
 }
 
 #banner{
