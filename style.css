@@ -34,42 +34,36 @@ header h3 {
 #mainContent {
     height: 700px;
     justify-content: space-evenly;
-    background-color: #B3FFAE;
+    background-color: #F8FFDB;
     text-align: center;
     font-family: 'Kolker Brush', cursive;
     font-size: 65px;
 }
 
 #mainContent input {
-
     background-color: #FF7D7D;
     padding: 25px;
+    font-size: 35;
     text-decoration: none;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Kolker Brush', cursive;
     border: 0ch;
     border-radius: 25px;
     transition-duration: 0.5s;
 }
 
 #mainContent input:hover {
-    background-color: #B3FFAE;
+    background-color: #F8FFDB;
     color: #FF6464;
-    font-size: 25px;
+    font-size: 45px;
+    font-family: 'Kolker Brush', cursive;
+
 }
 
-#banner{
+#banner {
     display: flex;
     float: left;
 }
 
-#banner img{
+#banner img {
     width: 20%;
-}
-
-#offers{
-    margin-top: 25px;
-    background-color:#F8FFDB;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 35px;
-    text-align: center;
 }
