@@ -6,7 +6,6 @@ body {
 }
 
 header {
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,17 +26,18 @@ header h3 {
     transition-duration: 0.5s;
 }
 
-#content{
+#content {
     text-align: center;
 }
-#content h1{
+
+#content h1 {
     margin-top: 10px;
-    background-color: wheat;
     font-family: 'Kolker Brush', cursive;
     font-size: 200px;
     color: #FF7D7D;
 }
-#content h3{
+
+#content h3 {
     font-family: 'Kolker Brush', cursive;
     font-size: 100px;
     color: bisque;
@@ -52,5 +52,12 @@ header h3 {
 
 #banner img {
     border-radius: 5px;
-    width: 15%;
+    width: 17%;
+}
+
+#menu {
+    text-align: center;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 100px;
+    color: bisque;
 }
