@@ -61,3 +61,39 @@ header h3 {
     font-size: 100px;
     color: bisque;
 }
+
+table {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+tr {
+    height: 150px;
+}
+
+td {
+    padding: 25px;
+    background-color: antiquewhite;
+}
+
+table img {
+    width: 150px;
+}
+
+table button {
+    width: 150px;
+    margin: 10px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    transition-duration: 0.5s;
+}
