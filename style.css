@@ -81,6 +81,7 @@ table {
 }
 
 tr {
+    text-align: left;
     height: 150px;
 }
 
@@ -106,4 +107,20 @@ table button {
     display: inline-block;
     font-size: 10px;
     transition-duration: 0.5s;
+}
+footer{
+    justify-content: space-between;
+}
+footer iframe{
+    float: left;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+footer h1{
+    font-family: 'Kolker Brush', cursive;
+    font-size: 45px;
+    color: #FF7D7D;
 }
